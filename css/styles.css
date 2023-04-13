@@ -1,0 +1,34 @@
+body{ 
+    background-color: #Ffffff;
+    font-family:'Montserrat', sans-serif;
+    font-family: 'Poiret One', sans;
+    font-size: 24px; /* set font size to 24px*/
+    font-weight: 400; /* sets font weight to 400 */
+    line-height: 1.6; /* sets the line height to 1.6 * the font size */
+    color: #30675D;
+}
+
+h1, h2, h3, h4 { 
+    line-height: 1.4;
+}
+h1{
+    font-size: 2.75em
+    font-weight: 400; }
+h2{
+    font-size: 2.25em
+    font-weight: 400;}
+h3{
+    font-size: 1.75em
+    font-weight: 400;}
+h4{
+    font-size: 1.35em
+    font-weight: 400;}
+
+
+p, ol, ul {
+    font-family:'Montserrat', sans-serif; /* set paragraph font to monts. */
+    font-size: 18px; /* set p. text size to 18 px */
+    line-height: 1.2; /* set line height to 1.2 times the font size */
+    font-weight: 200; /* set text weight to 200 */
+    color: #045684; 
+}
