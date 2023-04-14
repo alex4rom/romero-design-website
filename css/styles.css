@@ -2,7 +2,6 @@ body{
     background-color: #Ffffff;
     font-family:'Montserrat', sans-serif;
     font-family: 'Poiret One', sans;
-    font-size: 28px; /* set font size to 24px*/
     font-weight: 400; /* sets font weight to 400 */
     line-height: 1.6; /* sets the line height to 1.6 * the font size */
     color: #02273d;
@@ -13,19 +12,19 @@ h1, h2, h3, h4 {
 }
 h1{
     font-size:28px; 
-    font-size: 2.75em
+    font-size: 2.75em;
     font-weight: 400; }
 h2{
     font-size: 24px;
-    font-size: 2.25em
+    font-size: 2.25em;
     font-weight: 400;}
 h3{
     font-size: 20px;
-    font-size: 1.75em
+    font-size: 1.75em;
     font-weight: 400;}
 h4{
     font-size: 18px;
-    font-size: 1.35em
+    font-size: 1.35em;
     font-weight: 400;}
 
 
@@ -36,8 +35,28 @@ p, ol, ul {
     font-weight: 200; /* set text weight to 200 */
     color: #30675D; 
 }
-
+img{width:100%}
 #logo{ width: 15%}
 #linked_logo{ width:10%}
-source #mockup {width:100%}
-source{width:100%}
+
+
+a{ color: #0973f6;
+     font-size: 22px;
+    text-decoration: none;}
+
+a:visited{ color:#0973f6; 
+        font-size: 22px;
+       text-decoration: none;/* link visited already*/}
+   
+
+a:hover{ color: #fe922d;
+    font-size: 22px;
+   outline: 2px solid #fe922d;}
+
+   a:focus{ color: #fe922d;
+        font-size: 22px;
+       outline: 2px solid #fe922d;}
+       
+a:active{ color: #0973f6;
+        font-size: 22px;
+       text-decoration: underline;}
