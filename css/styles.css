@@ -1,7 +1,7 @@
 body{ 
     background-color: #Ffffff;
     font-family:'Montserrat', sans-serif;
-    font-family: 'Poiret One', sans;
+    font-family: 'Poiret One', sans-serif;
     font-weight: 400; /* sets font weight to 400 */
     line-height: 1.6; /* sets the line height to 1.6 * the font size */
     color: #02273d;}
@@ -37,7 +37,7 @@ p, ol, ul {
     color: #30675D; }
 
 img{width:100%}
-#logo{ width: 15%}
+#logo{ width: 10%}
 #linked_logo{ width:10%}
 
 
@@ -99,3 +99,7 @@ header{
         background-color: #FDDFB7;
         padding: 5px;
         margin: 5px auto;}
+
+#website_name{ 
+    color:#30675D;
+    font-weight: 800; }
