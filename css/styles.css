@@ -103,3 +103,9 @@ header{
 #website_name{ 
     color:#30675D;
     font-weight: 800; }
+
+
+/* layout styling*/
+
+.container { padding: 5px 15px;}
+#work .row{  padding-bottom: 25px; border-bottom: 2px solid #30675D;} /* 25px top and bottom 0 righ and left
