@@ -29,7 +29,7 @@ h4{
 
 
 p, ol, ul {
-    font-family:'Montserrat', sans-serif; /* set paragraph font to monts. */
+    font-family:'Poiret One', sans-serif; /* set paragraph font to poiret. */
     font-size: 18px; /* set p. text size to 18 px */
     line-height: 1.2; /* set line height to 1.2 times the font size */
     font-weight: 200; /* set text weight to 200 */
@@ -37,7 +37,10 @@ p, ol, ul {
 
 img{width:100%}
 
+#photo{width:70%;}
+
 #linked_logo{ width:10%}
+
 #logo { width: 10%;}
 
 a{ color: #0973f6;
