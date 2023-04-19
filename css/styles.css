@@ -39,9 +39,9 @@ img{width:100%}
 
 #photo{width:70%;}
 
-#linked_logo{ width:10%}
+#linked_logo{ width:5%}
 
-#logo { width: 10%;}
+#logo { width: 20%;}
 
 a{ color: #0973f6;
      font-size: 20px;
@@ -108,12 +108,12 @@ header{
         -moz-box-shadow: 6px 29px 29px rgba(0, 0, 0, 0.5)  ; 
         background-color: #FDDFB7;
         padding: 10px 0;
-        margin: 0 10px 0 10px;
+        margin: 0 auto;
         text-align: center;}
 
 #website_name{ 
     color:#30675D;
-    font-weight: 800; }
+    font-weight: 400; }
 
 
 /* layout styling*/
@@ -164,7 +164,7 @@ nav > ul > li > a:active{
 
 #hero{ 
     width:100%;
-    margin:0 10px; 
+    margin:0 auto; 
     padding:10px 0;
     display: inline-block;
     background-color: #30675d50;}
