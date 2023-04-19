@@ -145,13 +145,13 @@ nav > ul > li > a:hover{
         padding: 0 15px;
         text-transform: uppercase;
         font-weight: 700;
-        outline: 2px solid #fe922d}
+        outline: 2px solid #fe922d;}
 nav > ul > li > a:focus{ 
         padding: 0 15px;
         text-transform: uppercase;
         font-weight: 700;
         text-decoration: underline;
-        outline: 2px solid #fe922d}            
+        outline: 2px solid #fe922d; }            
 nav > ul > li > a:active{ 
         color: #0973f6;
         padding: 0 15px;
@@ -169,6 +169,4 @@ nav > ul > li > a:active{
     display: inline-block;
     background-color: #30675d50;}
 
-#logo_text{  text-align: center;
-    max-width: 250px;
-       }
+#logo_text{  max-width: 250px; }
