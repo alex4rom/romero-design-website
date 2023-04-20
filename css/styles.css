@@ -66,8 +66,8 @@ a:active{ color: #0973f6;
 
 
 .button { display: inline-block; /* change button to in-line-block*/
-        background-color: #fe922d; 
-        color: #0973f6;
+        background-color: #fe922d62; 
+        color: #022959;
         font-weight: 400;
         padding: 10px;
         border-radius: 3px;
@@ -167,7 +167,8 @@ nav > ul > li > a:active{
     margin:0 auto; 
     padding:10px 0;
     display: inline-block;
-    background-color: #30675d50;}
+    background-color: #30675d50;
+    text-align: center;}
 
 #logo_text{  max-width: 250px; }
 
@@ -175,13 +176,31 @@ nav > ul > li > a:active{
 /* media query*/ 
 
 /* medium devices (640px and larger)*/
-@media only screen and (min-width:649px){ 
+@media only screen and (min-width:640px){ 
     header{ text-align: unset;
-    padding: 20px 0 13px;}
+            padding: 20px 0 13px;
+        padding-bottom: 99px;}
     
      nav{ width: auto;
           float: right;
-          margin-top: 4px;}   
+          margin-top: 4px;} 
+    
+    #hero span{ display: block;}
+    
+    [class*="col-"] { width: 50%; 
+                     float: left;}
+
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;}
+    
+    p{ font-size: 16px;}
+
+    #about-page h3 { margin-top: 0;}
+    
+    footer{ padding-top: 50px;
+    text-align: left;}
 }
 
 /* large devices (1024px and larger)*/
