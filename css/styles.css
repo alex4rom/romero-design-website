@@ -223,7 +223,7 @@ nav > ul > li > a:active{
 /* large devices (1024px and larger)*/
 @media only screen and (min-width:1024px){
     
-    header{ text-align: unset;
+header{ text-align: unset;
         padding: 20px 0 13px;
         padding-bottom: 99px;
         color: #30675D;}
@@ -244,13 +244,16 @@ nav{ width: auto;
 [class*="col-"] { width: 50%; 
                  float: left;}
 
-.col-lg-7{padding-left: 10px;
-            width:48%;
+.col-lg-7_1{padding-left: 10px;
+            padding-right: 41px;
+            width:45%;
             font-size: 16px;}
 
-.col-col-lg-5{padding-top: 125px;}
+.col-col-lg-5{padding-top: 125px;
+                width:30%}
 
 #about-page h3{ margin-top: 0;}
+
 .row::after {
     content: "";
     clear: both;
@@ -258,9 +261,15 @@ nav{ width: auto;
 
 p{ font-size: 20px;}
  
-.topic_connect{ padding-top:200px;
-    text-decoration: underline 2px solid #fe922d;}
+.topic_connect{ padding-top:450px;
+    text-decoration: underline 2px solid #fe922d;
+    align-content: center;}
 
+.container {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+      }
 
 }
 
