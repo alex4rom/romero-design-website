@@ -1,30 +1,35 @@
+* {
+    box-sizing: border-box;
+  }
 
 
 body{ 
     background-color: #Ffffff;
-    font-family: 'Poiret One'serif;
     font-weight: 400; /* sets font weight to 400 */
     line-height: 1.6; /* sets the line height to 1.6 * the font size */
     color: #044469;}
 
 
 
-h1{
+h1{font-family: 'Poiret One','Montserrat';
     line-height: 1.4;
     font-size:28px; 
     font-size: 2.75em;
     font-weight: 400; }
-h2{
+
+h2{font-family: 'Poiret One','Montserrat';
     line-height: 1.4;
     font-size: 24px;
     font-size: 2.25em;
     font-weight: 400;}
-h3{
+
+h3{font-family: 'Poiret One','Montserrat';
     line-height: 1.4;
     font-size: 20px;
     font-size: 1.75em;
     font-weight: 400;}
-h4{
+
+h4{font-family: 'Poiret One','Montserrat';
     line-height: 1.4;
     font-size: 18px;
     font-size: 1.35em;
@@ -32,7 +37,7 @@ h4{
 
 
 p, ol, ul {
-    font-family:'Poiret One'; /* set paragraph font to poiret. */
+    font-family:'Poiret One','Montserrat'; /* set paragraph font to poiret. */
     font-size: 18px; /* set p. text size to 18 px */
     line-height: 1.2; /* set line height to 1.2 times the font size */
     font-weight: 200; /* set text weight to 200 */
@@ -40,13 +45,14 @@ p, ol, ul {
 
 img{width:100%}
 
-#photo{width:40%;}
+#photo{width:100%;}
 
 #linked_logo{ width:30px}
 
 #logo { max-width: 200px;
         display: inline-block;
-        padding-left: 20px;}
+        box-sizing: border-box;
+        position: relative;}
 
 a{ background-color: transparent;
     color: #0973f6;
@@ -89,17 +95,14 @@ a:active{ color: #0973f6;
 
 .button.contact{ background-color: transparent;
                 color:#0973f6;
-                text-transform: uppercase;
                 border: 2px solid #fe922d;}
     
 .button.contact:active{ background-color: transparent;
                         color:#0973f6;
-                        text-transform: uppercase;
                         border: 2px solid #fe922d;}
 
 .button.contact:hover{ background-color: transparent;
                         color:#fe922d;
-                        text-transform: uppercase;
                         border: 2px solid #fe922d;}
                         
 header{
@@ -119,47 +122,51 @@ header{
 
 /* =============layout styling===================*/
 
+
 .container { padding: 0 10px 40px 10px;}
 
-#work .row{ padding-top: auto; padding-bottom: 25px; border-bottom: 2px solid #fe922d;
-display: inline-block;} /* 25px top and bottom 0 righ and left*/
+ .row{      padding-top: 0; 
+            padding-bottom: 25px;  
+            border-bottom: 2px solid #fe922d;
+            display: inline-block;} /* 25px top and bottom 0 righ and left*/
 
 #hero h1,h2{  text-align: center;}
+
 #hero .hero_text{ text-align: right;}
 
 
 
-nav > ul{background-color: none;
+nav > ul{background-color: transparent;
         list-style-type: none;
-        padding-right:10px 0;
+        padding-right:5px;
     }
 
 nav > ul > li{ display: inline-block;}
 
 nav > ul > li > a{ 
-    padding: 0 10px;
+    padding: 0 5px;
     text-transform: uppercase;
     font-weight: 400;
-    background-color: none;}
+    background-color:transparent;}
 
 nav > ul > li > a:visited{ 
         color:#031832;
-        padding: 0 15px;
+        padding: 0 5px;
         text-transform: uppercase;
         font-weight: 700;}
 nav > ul > li > a:hover{ 
-        padding: 0 15px;
+        padding: 0 5px;
         text-transform: uppercase;
         font-weight: 700;
         text-decoration: underline 2px solid #0973f6;}
 nav > ul > li > a:focus{ 
-        padding: 0 15px;
+        padding: 0 5px;
         text-transform: uppercase;
         font-weight: 700;
         text-decoration: underline 2px solid #0973f6; }            
 nav > ul > li > a:active{ 
         color: #0973f6;
-        padding: 0 15px;
+        padding: 0 5px;
         text-transform: uppercase;
         font-weight: 700;
         text-decoration: underline 2px solid #0973f6;}
@@ -169,12 +176,14 @@ nav > ul > li > a:active{
 
 
 #hero{ 
+    font-family: 'Poiret One','Montserrat';
     width:100%;
     margin:0 auto; 
-    padding:10px 0;
+    padding:5px 0;
     display: inline-block;
     background-color: #26665a27;
-    text-align: center;}
+    text-align: center;
+    }
 
 footer{ 
     display:block;
@@ -194,7 +203,7 @@ footer{
         text-align: unset;
         padding: 20px 0 13px}
     
-    body{ font-size: 16px;;}
+    body{ font-size: 16px;}
 
 
     nav{ width: auto;
@@ -202,7 +211,7 @@ footer{
           margin-top: 4px;} 
     
     #hero { display: block;
-            font-family: 'Poiret One', sans-serif;}
+            font-family: 'Poiret One','Montserrat';}
     
     [class*="col-"] {float: left;
                         margin:5px 5px}
@@ -222,13 +231,19 @@ footer{
         content: "";
         clear: both;
         display: table;}
+
+    .container {
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+          }
     
 
-    #photo{width:40%;
-            padding-left: 175px;}
+    #photo{width:80%;
+            padding-left: 125px;}
    
      
-   
+ 
     
 
     
@@ -241,7 +256,7 @@ footer{
     
     header{ 
         text-align: unset;
-        padding: auto;
+        padding: 0 20px;
         margin:auto
        }   
  
@@ -252,7 +267,7 @@ nav{ width: auto;
     } 
 
  #hero { display: block;
-            font-family: 'Poiret One', sans-serif;}
+            font-family: 'Poiret One','Montserrat';}
 
 [class*="col-"] { width: 50%; 
                  float: left;}
@@ -274,8 +289,6 @@ nav{ width: auto;
 
 p{ font-size: 20px;}
  
-
-
 .container {
         max-width: 1200px;
         margin-left: auto;
@@ -283,26 +296,67 @@ p{ font-size: 20px;}
       }
 
 #photo{width:40%;
-        padding-left: auto;}
+        padding-left: 20px;}
 
-#logo { max-width: 200px;
+#logo { max-width: 250px;
         display: inline-block;
-    }
+        position: relative;}
 
 }
 
 
-/*======================== x-large devices (1440px and larger)====================================*/
-@media only screen and (min-width:1440px){
+/*======================== x-large devices (1400px and larger)====================================*/
+@media only screen and (min-width:1400px){
+
+#logo { max-width: 300px;
+        display: inline-block;
+        position: relative;}
+
+nav{        font-size: 34px;       
+            width: auto;
+            float: inline-start;
+            margin-top: 4px;
+            margin-bottom: 20px;} 
 
 
-
-
-
-
-
-
-
-
-    
  }
+
+
+
+
+
+ /*======================= svg Animation=================================*/
+.svg{ width: 100%;
+    max-width: 100%;
+    height:auto;}
+
+@keyframes color-change{ 
+    0% {fill: #edc655;}
+    50% {fill: #fcffad;}
+    100% {fill: #f76414;}}
+
+.sun {
+        animation-duration: 10s;
+        animation-name: color-change;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: linear;
+      }
+
+@keyframes cloud-move {
+        from {transform: translate(0,50px);}
+        to {transform: translate(200px,50px);} }
+
+.cloud-front {
+            animation-duration: 35s;
+            animation-name: cloud-move;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-timing-function: linear; }
+
+@keyframes cloud-move-reverse {
+                from {transform: translate(446px,48px);}
+                to {transform: translate(100px, 48px);} }
+
+
+ .cloud-back { animation: 40s cloud-move-reverse infinite alternate linear; }
