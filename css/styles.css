@@ -1,9 +1,12 @@
+
+
 body{ 
     background-color: #Ffffff;
-    font-family: 'Poiret One', sans-serif;
+    font-family: 'Poiret One'serif;
     font-weight: 400; /* sets font weight to 400 */
     line-height: 1.6; /* sets the line height to 1.6 * the font size */
-    color: #02273d;}
+    color: #044469;}
+
 
 
 h1{
@@ -29,7 +32,7 @@ h4{
 
 
 p, ol, ul {
-    font-family:'Poiret One', sans-serif; /* set paragraph font to poiret. */
+    font-family:'Poiret One'; /* set paragraph font to poiret. */
     font-size: 18px; /* set p. text size to 18 px */
     line-height: 1.2; /* set line height to 1.2 times the font size */
     font-weight: 200; /* set text weight to 200 */
@@ -37,19 +40,20 @@ p, ol, ul {
 
 img{width:100%}
 
-#photo{width:70%;}
+#photo{width:40%;}
 
-#linked_logo{ width:5%}
+#linked_logo{ width:30px}
 
-#logo { width: 20%;
-        display: inline-block;}
+#logo { max-width: 200px;
+        display: inline-block;
+        padding-left: 20px;}
 
 a{ background-color: transparent;
     color: #0973f6;
      font-size: 20px;
     text-decoration: none;}
 
-a:visited{ color:#031832; 
+a:visited{ color:#0973f6; 
         font-size: 20px;
        text-decoration: none;/* link visited already*/}
    
@@ -112,15 +116,13 @@ header{
         margin: 0 auto;
         text-align: center;}
 
-#website_name{ 
-    color:#30675D;
-    font-weight: 400; }
 
+/* =============layout styling===================*/
 
-/* layout styling*/
+.container { padding: 0 10px 40px 10px;}
 
-.container { padding: 0 10px;}
-#work .row{ padding-top: 20px; padding-bottom: 25px; border-bottom: 2px solid #fe922d;} /* 25px top and bottom 0 righ and left*/
+#work .row{ padding-top: auto; padding-bottom: 25px; border-bottom: 2px solid #fe922d;
+display: inline-block;} /* 25px top and bottom 0 righ and left*/
 
 #hero h1,h2{  text-align: center;}
 #hero .hero_text{ text-align: right;}
@@ -128,8 +130,8 @@ header{
 
 
 nav > ul{background-color: none;
-    list-style-type: none;
-        padding: 0;
+        list-style-type: none;
+        padding-right:10px 0;
     }
 
 nav > ul > li{ display: inline-block;}
@@ -174,82 +176,93 @@ nav > ul > li > a:active{
     background-color: #26665a27;
     text-align: center;}
 
-#logo_text{  max-width: 250px;
-          display: inline-block; }
+footer{ 
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 50px;}
 
 
-/* media query*/ 
+/* ======================================================media query===========================================*/ 
 
-/* medium devices (640px and larger)*/
+/* ====================medium devices (640px and larger)==============================*/
 @media only screen and (min-width:640px){ 
-   
-    header{ text-align: unset;
-            padding: 20px 0 13px;
-            padding-bottom: 99px;
-            color: #30675D;}
+
+  
+    header{ 
+        text-align: unset;
+        padding: 20px 0 13px}
     
-    footer{ text-align: left;
-            padding-top:100px;
-            font-size: 20px;}
-     
-    
+    body{ font-size: 16px;;}
+
+
     nav{ width: auto;
           float: right;
           margin-top: 4px;} 
     
-    #hero span{ display: block;}
+    #hero { display: block;
+            font-family: 'Poiret One', sans-serif;}
     
-    [class*="col-"] { width: 50%; 
-                     float: left;}
-    
-    .col-md-6_1{padding-left: 10px;
-                width:48%;
-                font-size: 16px;}
+    [class*="col-"] {float: left;
+                        margin:5px 5px}
 
-    .col-md-6_2{padding-top: 125px;}
+    .col-md-7{ width:40%;
+                font-size: 16px;
+                padding-top: 80px;}
+
+    .col-md-5{ width:55%;
+                    font-size: 16px;
+                    padding-left: 8px;}
 
     #about-page h3{ margin-top: 0;}
+    
+    
     .row::after {
         content: "";
         clear: both;
         display: table;}
     
-    p{ font-size: 20px;}
+
+    #photo{width:40%;
+            padding-left: 175px;}
+   
      
-    .topic_connect{ padding-top:200px;
-        text-decoration: underline 2px solid #fe922d;}
+   
+    
+
+    
     }
 
-/* large devices (1024px and larger)*/
+
+/*====================== large devices (1024px and larger)=========================*/
 @media only screen and (min-width:1024px){
     
-header{ text-align: unset;
-        padding: 20px 0 13px;
-        padding-bottom: 99px;
-        color: #30675D;}
-
-footer{ text-align: left;
-        padding-top:100px;
-        font-size: 20px;}
+    
+    header{ 
+        text-align: unset;
+        padding: auto;
+        margin:auto
+       }   
  
-
 nav{ width: auto;
         float: inline-start;
         margin-top: 4px;
         margin-bottom: 20px;
     } 
 
-#hero span{ display: block;}
+ #hero { display: block;
+            font-family: 'Poiret One', sans-serif;}
 
 [class*="col-"] { width: 50%; 
                  float: left;}
 
-.col-lg-7_1{padding-left: 10px;
+.col-lg-7{padding-left: 10px;
             padding-right: 41px;
             width:45%;
             font-size: 16px;}
 
-.col-col-lg-5{padding-top: 125px;
+.col-lg-5{padding-top: 125px;
                 width:30%}
 
 #about-page h3{ margin-top: 0;}
@@ -261,9 +274,7 @@ nav{ width: auto;
 
 p{ font-size: 20px;}
  
-.topic_connect{ padding-top:450px;
-    text-decoration: underline 2px solid #fe922d;
-    align-content: center;}
+
 
 .container {
         max-width: 1200px;
@@ -271,8 +282,27 @@ p{ font-size: 20px;}
         margin-right: auto;
       }
 
+#photo{width:40%;
+        padding-left: auto;}
+
+#logo { max-width: 200px;
+        display: inline-block;
+    }
+
 }
 
-/* x-large devices (1440px and larger)*/
-@media only screen and (min-width:1440px){ }
 
+/*======================== x-large devices (1440px and larger)====================================*/
+@media only screen and (min-width:1440px){
+
+
+
+
+
+
+
+
+
+
+    
+ }
