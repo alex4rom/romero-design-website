@@ -34,19 +34,19 @@
  
 
 <main>
-    <div id=hero>
+    <div id="hero" >
         <div class="container"> 
             <h1> About </h1>
-        </div>
-    </div>
+        </div><!--end hero-->
+    </div> <!--end container-->
 
-<div id="work">   
+<div id="about">   
     <div class="container"> 
         <picture><source srcset="img/photo_1x.jpg" media="(max-width:767px)">
         <img id="photo" src="img/photo_2x.jpg" alt="photo"> </picture>
-    </div>
-    <div class="row">
-    <div class="container col-lg-7"> 
+    </div><!--end container-->
+        <div class="container"> 
+    <div class="col-lg-7"> 
             <h2 class="topic"> My Story </h2> 
                 <p>Hi, its a pleasure to meet you. My name is Roberto and I am a UX-UI designer based out of Rhode Island.
                 <p>As a first generation American I grew up in a very family oriented household where we were all expected to work together for the good of the family. 
@@ -54,39 +54,39 @@
                 <p>After over a decade in the hospitality industry my Leadership abilities, Problem Solving skills and Resourcefulness are second to none. 
                 <p>I now bring my skills to the digital world with the goal to become a top level designer that will strive to create products that serve and care for user needs all the while pushing the industry standard.</p>
                 <h3><a href="files/romero_resume.pdf" target="_blank" class="button contact">View Resume</a></h3>
-    </div>
-    
+    </div><!--end col-->
+    </div><!--end container-->
     <div class="container">
-            <h2 class="topic"> Skills & Tools </h2>
-            <div class="col-md-5"> 
+            <div class="col-lg-5"> 
+                        <h2 class="topic"> Skills & Tools </h2>
+<div class="row">
+                <div class="skills col-md-6">
                 <h3> Releavnt Skills</h3>
                 <ul>
                     <li>UX Strategy</li><li>Flow Diagrams</li><li>Prototyping</li><li>Wire Framing</li><li>Front-end Development</li>
                     <li>UX Research</li><li>Persona Development</li><li>UI Design</li><li>Competitive Analysis</li><li>User Testing</li>
                 </ul>
-            </div>
-            <div class="col-md-5"> 
+            </div><!--end col-->
+            <div class="skills col-md-6"> 
                 <h3>Tools I Use</h3>
                 <ul>
                     <li>Figma</li><li>Balsamic</li><li>VsCode</li><li>Github</li>
                 </ul>
-            </div>
-
- 
-        </div>       
-    </div>
-</div>  
-
+            </div><!--end col-->
+        </div>   <!--end row-->    
+    </div><!--end col-->
+</div>  <!--end container-->
+</div><!--end about-->
 </main>
 
-<footer id="contact">
+<footer>
 <div  class="container">
     <div>
     
     <h2 class="topic">Lets Connect</h2>
     <p>Intrested in discussing more? Get in touch!</p>
     
-       <h3><a href="mailto:romerofinance10@gmail.com" class="button contact">Email Me</a></h3>
+       <h3 id="contact"><a href="mailto:romerofinance10@gmail.com" class="button contact">Email Me</a></h3>
     </div>
 
     <div>
@@ -99,7 +99,7 @@
     </div>
 </div>    
 </footer>
-<script src="js/main.js"></script>
+
 </body>
 
 </html>

@@ -1,14 +1,27 @@
 * {
     box-sizing: border-box;
   }
+  
 
+header {
+     position:relative;
+        width:100%; 
+        height: 100%; 
+        background: #F8F8F8; 
+        border: solid #BDBDBD 1px; 
+        box-shadow: 6px 29px 29px rgba(0, 0, 0, 0.5)  ; 
+        -webkit-box-shadow: 6px 29px 29px rgba(0, 0, 0, 0.5)  ; 
+        -moz-box-shadow: 6px 29px 29px rgba(0, 0, 0, 0.5)  ; 
+        background-color: #FDDFB7;
+        padding: 10px 0;
+        margin: 0 auto;
+        text-align: center;}
 
-body{ 
+body {
     background-color: #Ffffff;
     font-weight: 400; /* sets font weight to 400 */
     line-height: 1.6; /* sets the line height to 1.6 * the font size */
     color: #044469;}
-
 
 
 h1{font-family: 'Poiret One','Montserrat';
@@ -43,9 +56,11 @@ p, ol, ul {
     font-weight: 200; /* set text weight to 200 */
     color: #30675D; }
 
-img{width:100%}
+img {
+    width: 100%;
+}
 
-#photo{width:100%;}
+#photo{width:50%;}
 
 #linked_logo{ width:30px}
 
@@ -53,6 +68,10 @@ img{width:100%}
         display: inline-block;
         box-sizing: border-box;
         position: relative;}
+
+
+
+
 
 a{ background-color: transparent;
     color: #0973f6;
@@ -83,7 +102,8 @@ a:active{ color: #0973f6;
         font-weight: 400;
         padding: 10px;
         border-radius: 3px; 
-        transition: 0.2s opacity; }
+        transition: 0.2s opacity; 
+        }
 
 .button:active{ color: #fe922d;
             background-color: transparent;
@@ -104,37 +124,13 @@ a:active{ color: #0973f6;
 .button.contact:hover{ background-color: transparent;
                         color:#fe922d;
                         border: 2px solid #fe922d;}
-                        
-header{
-        position:relative;
-        width:100%; 
-        height: 100%; 
-        background: #F8F8F8; 
-        border: solid #BDBDBD 1px; 
-        box-shadow: 6px 29px 29px rgba(0, 0, 0, 0.5)  ; 
-        -webkit-box-shadow: 6px 29px 29px rgba(0, 0, 0, 0.5)  ; 
-        -moz-box-shadow: 6px 29px 29px rgba(0, 0, 0, 0.5)  ; 
-        background-color: #FDDFB7;
-        padding: 10px 0;
-        margin: 0 auto;
-        text-align: center;}
 
 
-/* =============layout styling===================*/
+/* Layout styling */
 
-
-.container { padding: 0 10px 40px 10px;}
-
- .row{      padding-top: 0; 
-            padding-bottom: 25px;  
-            border-bottom: 2px solid #fe922d;
-            display: inline-block;} /* 25px top and bottom 0 righ and left*/
-
-#hero h1,h2{  text-align: center;}
-
-#hero .hero_text{ text-align: right;}
-
-
+.container {
+    margin: 0 16px;
+}
 
 nav > ul{background-color: transparent;
         list-style-type: none;
@@ -172,7 +168,14 @@ nav > ul > li > a:active{
         text-decoration: underline 2px solid #0973f6;}
 
 
-.topic{ text-decoration: underline 2px solid #fe922d;}
+
+
+
+
+.topic{ text-decoration: underline 2px solid #fe922d;
+text-align: center;
+}
+
 
 
 #hero{ 
@@ -190,70 +193,314 @@ footer{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    padding-top: 50px;}
+    padding-top: 600px;}
+
+#about-title,
+#project-title {
+    padding: 8px 0;
+    margin: 16px 0;
+    text-align: center; /* Centers text */
+}
+
+#hero span {
+    color: rgba(20,58,82,0.75);
+    font-weight: 600;
+    font-size: .8em;
+    display: block;
+    line-height: 1.2;
+    padding-top: 8px;
+}
+
+#hero h4 {
+    color: rgba(20,58,82,0.9);
+
+}
+
+#work h2,
+.my-story h2,
+#project-background h2,
+#project-process h2 {
+    text-align: center;
+    padding: 8px 0;
+    margin: 32px 0 16px 0;
+}
+
+.skills-tools h2 {
+    text-align: center;
+    padding: 8px 0;
+    margin: 32px 0 -24px 0;
+}
+
+#project-background h3 {
+    margin: 32px 0 0 0;
+}
+
+.resume,
+.learnings p,
+.design-collaboration {
+    text-align: center;
+}
+
+.process-link-1 a {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 0 0 16px 0;
+}
+
+.process-link-2 a {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.background h4 {
+    margin: 24px 0 0 0;
+}
+
+.skills h4 {
+    margin: 16px 0 8px 0;
+}
+
+.learnings h4 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5em;
+    margin: 32px 0 0 0;
+}
+
+.learnings p span {
+    display: inline-block;
+    width: 100%;
+    font-weight: 600;
+    padding: 8px 0 0 0;
+    margin: 0;
+}
+
+.skills > ul {
+    list-style-type: none;
+    padding: 4px;
+    margin: 0 0 16px 0;
+}
+
+.background > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.test-plan-title {
+    margin: 16px 0 0 0;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.list p {
+    margin: 16px 0 0 0;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.list ul {
+    margin: 8px 0 16px 0;
+}
+
+.test-plan span,
+.list span,
+.design-collaboration {
+    font-weight: 500;
+}
+
+.test-plan li {
+    list-style-type: none;
+    margin: 8px 0 16px 8px;
+}
+
+.metrics li {
+    margin: 8px 0 8px 8px;
+    list-style-position: inside;
+    list-style-type: circle;
+}
+
+.row {
+    margin: 32px 0; /* 32px top and bottom, 0 left and right */
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.row.learnings {
+    margin: 16px 0;
+}
+
+#work .row {
+    padding-bottom: 28px;
+    border-bottom: 1px solid  #fe922d;
+}
+
+#about .row {
+    padding-bottom: 28px;
+}
 
 
-/* ======================================================media query===========================================*/ 
+#project-background .row {
+    margin: 0;
+}
 
-/* ====================medium devices (640px and larger)==============================*/
-@media only screen and (min-width:640px){ 
+.css-animation {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
 
+#goTop {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 8px 0 8px;
+    margin: 24px 0 40px;
+    font-size: 1.25em;
+    font-weight: 500;
+    color: #143a52;
+}
   
-    header{ 
+#goTop {
+    transition: all 0.5s ease 0s;
+    opacity: 0.6;
+    cursor: pointer;
+}
+  
+#goTop:hover {
+    opacity: 1;
+}
+
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+    header {
         text-align: unset;
-        padding: 20px 0 13px}
+        padding: 20px 0 13px;
+    }
+    nav {
+      width: auto;
+      float: right;
+      margin-top: auto;
+    }
+    body {
+        font-size: 18px;
+    }
+    .col-lg-5{ text-align: center;
+            margin-left: 115px;}
     
-    body{ font-size: 16px;}
-
-
-    nav{ width: auto;
-          float: right;
-          margin-top: 4px;} 
-    
-    #hero { display: block;
-            font-family: 'Poiret One','Montserrat';}
-    
-    [class*="col-"] {float: left;
-                        margin:5px 5px}
-
-    .col-md-7{ width:40%;
-                font-size: 16px;
-                padding-top: 80px;}
-
-    .col-md-5{ width:55%;
-                    font-size: 16px;
-                    padding-left: 8px;}
-
-    #about-page h3{ margin-top: 0;}
-    
-    
-    .row::after {
-        content: "";
-        clear: both;
-        display: table;}
-
-    .container {
-            max-width: 1200px;
-            margin-left: auto;
-            margin-right: auto;
-          }
-    
-
-    #photo{width:80%;
-            padding-left: 125px;}
-   
-     
- 
-    
-
-    
+    .col-md-6 {
+        width: 50%;
+        margin-top: -20px;
+        margin-left: -8px;
+    }
+    .col-md-6-project {
+        width: 50%;
+        margin: 0 0 32px;
+    }
+    .col-md-12 {
+        width: 100%;
+    }
+    [class*="col-"] {
+        float: left;
+        padding: 10px;
+    }
+    #work h3 {
+        margin-top: 0;
+        margin-bottom: 24px;
+    }
+    #about h4,
+    #project-background h4 {
+        margin-top: 0;
+    }
+    #about h2 {
+        margin-top: 16px;
+    }
+    #about img {
+        max-width: 450px;
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #project-title img {
+        max-width: 750px;
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .skills > ul {
+        margin: 0;
+    }
+    nav > ul > li {
+        padding: 0 16px;
+    }
+    .social-icon {
+        width: 36px;
+    }
+    .learnings p span {
+        padding: 0;
+    }
+    .logo {
+        max-width: 250px;
+    }
+    nav > ul > li {
+        display: inline-block;
+        padding: 0 10px;
+    }
+    .navtoggle li:not(:last-child) {
+        display: inline-block;
+    }
+    .navtoggle li:last-child {
+        display: none;
+    }
+    nav > ul {
+        margin: 1em 0;
+    }
+    div.pullUp a:before {
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0px;
+        bottom: 0px;
+        content: '';
+        background: #143a52;
+        opacity: 0.25;
+        background-blend-mode: multiply;
+        transition: all 0.3s;
+        z-index: -1;
+    }
+    div.pullUp a:hover:before {
+        height: 100%;
+    }
+    .skills-tools h2 {
+        text-align: center;
+        padding: 8px 0;
+        margin: 32px 0 -12px 0;
     }
 
+    footer{ padding-top: 188%;}
 
-/*====================== large devices (1024px and larger)=========================*/
-@media only screen and (min-width:1024px){
+    .container_awake{ margin-top: -170%;}
     
-    
+
+
+
+}
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
     header{ 
         text-align: unset;
         padding: 0 20px;
@@ -265,67 +512,61 @@ nav{ width: auto;
         margin-top: 4px;
         margin-bottom: 20px;
     } 
-
- #hero { display: block;
-            font-family: 'Poiret One','Montserrat';}
-
-[class*="col-"] { width: 50%; 
-                 float: left;}
-
-.col-lg-7{padding-left: 10px;
-            padding-right: 41px;
-            width:45%;
-            font-size: 16px;}
-
-.col-lg-5{padding-top: 125px;
-                width:30%}
-
-#about-page h3{ margin-top: 0;}
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;}
-
-p{ font-size: 20px;}
- 
-.container {
+    .col-lg-3 {
+        width: 25%;
+    }
+    .col-lg-4 {
+        width: 33.33%;
+    }
+    .col-lg-5 {
+        width: 41.66%;
+        margin-left: -8px;
+    }
+    .col-lg-7 {
+        width: 58.33%;
+        padding-bottom: 32px;
+    }
+    .col-lg-12 {
+        width: 100%;
+        margin-top: -18px;
+    }
+    .col-lg-12-skills {
+        width: 100%;
+        margin-top: -18px;
+        float: left;
+        padding: 0 20px 40px;
+    }
+    .container {
         max-width: 1200px;
         margin-left: auto;
         margin-right: auto;
-      }
+        padding: 0 16px;
+    }
+    .learnings h4 {
+        margin: 40px 0 0 0;
+        font-weight: 700;
+        font-size: 1.6em;
+    }
+    #project-background h2,
+    #project-process h2 {
+        font-size: 2.5em;
+    }
+    .process img {
+        padding: 24px 48px;
+    }
+    .skills-tools h2 {
+        text-align: center;
+        padding: 8px 0;
+        margin: 32px 0 16px 0;
+    }
+    footer{ padding-top: 600px;}
 
-#photo{width:40%;
-        padding-left: 20px;}
-
-#logo { max-width: 250px;
-        display: inline-block;
-        position: relative;}
-
+    .container_awake{ margin-top: -50%;}
 }
 
 
-/*======================== x-large devices (1400px and larger)====================================*/
-@media only screen and (min-width:1400px){
+/* CSS Animation */
 
-#logo { max-width: 300px;
-        display: inline-block;
-        position: relative;}
-
-nav{        font-size: 34px;       
-            width: auto;
-            float: inline-start;
-            margin-top: 4px;
-            margin-bottom: 20px;} 
-
-
- }
-
-
-
-
-
- /*======================= svg Animation=================================*/
 .svg{ width: 100%;
     max-width: 100%;
     height:auto;}
