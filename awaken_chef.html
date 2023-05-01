@@ -12,22 +12,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poiret+One&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/9e89b70334.js" crossorigin="anonymous"></script>
 
 </head>
 
 <body >
 <header>
     <div class="container">
-    <img id="logo" src="img/logo.png" alt="romero">
+      <div class="navtoggle" id="myNavtoggle">  
+        <img id="logo" src="img/logo.png" alt="romero">
     
 
-<nav>
-    <ul>
+    <nav>
+        <ul>
         <li><a href="index.html">Work</a></li>
         <li> <a href="about.html">About Me</a></li>
-        <li> <a href="#contact">Contact</a></li>
-    </ul>
-</nav>
+        <li> <a href="#contact;" onclick="menuToggle()">Contact</a></li>
+        <li> <a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fa-solid fa-bars" style="color: #0d1c24;"></i></a></li>
+        </ul>
+    </nav>
+</div>    
 </div>
 </header>
  
@@ -139,8 +143,7 @@
             <p> Creating the User Personas helped me keep the user needs front and center, 
                 while designing tools for them to achieve specific tasks. </p>
         <div>
-                    <picture><source srcset="img/awaken/user_persona1x.jpg" media="(max-width:500
-px)">
+                    <picture><source srcset="img/awaken/user_persona1x.jpg" media="(max-width:500px)">
                         <img  src="img/awaken/user_persona2x.jpg" alt="photo"> </picture>
         </div>
 
@@ -150,8 +153,7 @@ px)">
         <h2 class="topic"> Flow Map</h2>
             <p> The User Flow of the design is the foundation of the web app; it will show how the user will travel through the app.  </p>
         <div>
-                    <picture><source srcset="img/awaken/flowchart_1x.jpg" media="(max-width:500
-px)">
+                    <picture><source srcset="img/awaken/flowchart_1x.jpg" media="(max-width:500px)">
                         <img  src="img/awaken/flowchart_2x.jpg" alt="photo"> </picture>
         </div>
 
@@ -162,8 +164,7 @@ px)">
             <p> Using the Crazy 8s method of exploratory sketching, I was able to design low-fidelity wireframes 
                 for each one of the page screens.   </p>
         <div>
-                    <picture><source srcset="img/awaken/lowfi_1x.jpg" media="(max-width:500
-px)">
+                    <picture><source srcset="img/awaken/lowfi_1x.jpg" media="(max-width:500px)">
                         <img  src="img/awaken/lowfi_2x.jpg" alt="photo"> </picture>
         </div>
 
@@ -174,8 +175,7 @@ px)">
             <p> While working through and creating the High-Fidelity wireframes, 
                 I settled on the final elements that will brand the Awaken Chef web app. </p>
         <div>
-                    <picture><source srcset="img/awaken/interface_design1x.jpg" media="(max-width:500
-px)">
+                    <picture><source srcset="img/awaken/interface_design1x.jpg" media="(max-width:500px)">
                         <img src="img/awaken/interface_design2x.jpg" alt="photo"> </picture>
         </div>
 
@@ -185,8 +185,7 @@ px)">
         <h2 class="topic"> High-Fidelity Wireframes</h2>
             <p> After incorporating all the visual aspects into the wireframes, these are the final desings.   </p>
         <div>
-                    <picture><source srcset="img/awaken/iphone_7mock1x.jpg" media="(max-width:500
-px)">
+                    <picture><source srcset="img/awaken/iphone_7mock1x.jpg" media="(max-width:500px)">
                         <img  src="img/awaken/iphone_7mock2x.jpg" alt="photo"> </picture>
         </div>
 
@@ -196,8 +195,7 @@ px)">
         <h2 class="topic"> Responsive Design</h2>
             <p> Awaken Chef has a responsive design for easy access no matter what device your using! </p>
         <div>
-                    <picture><source srcset="img/awaken/responsive_mock1x.jpg" media="(max-width:500
-px)">
+                    <picture><source srcset="img/awaken/responsive_mock1x.jpg" media="(max-width:500px)">
                         <img  src="img/awaken/responsive_mock2x.jpg" alt="photo"> </picture>
         </div>
 

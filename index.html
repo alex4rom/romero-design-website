@@ -12,23 +12,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poiret+One&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/9e89b70334.js" crossorigin="anonymous"></script>
 </head>
 <body id="home_page">
 <header>
-<div class=" container">
-<div>
-    <img id="logo" src="img/logo.png" alt="romero">
+    <div class=" container">
+        <div class="navtoggle" id="myNavtoggle">
+            <img id="logo" src="img/logo.png" alt="romero">
    
     
-    <nav>
+        <nav>
         <ul>
         <li><a href="index.html">Work</a></li>
         <li> <a href="about.html">About Me</a></li>
-        <li> <a href="#contact">Contact</a></li>
+        <li> <a href="#contact;" onclick="menuToggle()">Contact</a></li>
+        <li> <a href="javascript:void(0);" class="icon" onclick="menuToggle()">
+            <i class="fa-solid fa-bars" style="color: #0d1c24;"></i></a></li>
         </ul>
-    </nav>
-</div>
-</div>
+        </nav>
+        </div>
+    </div>
 </header>
  
 
