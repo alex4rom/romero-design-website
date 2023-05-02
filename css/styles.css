@@ -191,6 +191,7 @@ nav > ul > li > a:active{
 
 .topic{ text-decoration: underline 2px solid #fe922d;
 text-align: center;
+padding-bottom: 15px;
 }
 
 
@@ -210,7 +211,7 @@ footer{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    padding-top: 600px;}
+    padding-top: 80px;}
 
 #about-title,
 #project-title {
@@ -398,7 +399,7 @@ footer{
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 640px){
     header {
         text-align: unset;
         padding: 20px 0 13px;
@@ -482,7 +483,7 @@ Medium devices (640px and larger)
         display: none;
     }
     nav > ul {
-        margin: 1em 0;
+        margin-top:-50px;
     }
     div.pullUp a:before {
         position: absolute;
@@ -506,7 +507,7 @@ Medium devices (640px and larger)
         margin: 32px 0 -12px 0;
     }
 
-    footer{ padding-top: 188%;}
+    footer{ padding-top: 195%;}
 
     .container_awake{ margin-top: -170%;}
    
@@ -522,7 +523,7 @@ Medium devices (640px and larger)
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1020px) {
     header{ 
         text-align: unset;
         padding: 0 20px;
@@ -589,7 +590,15 @@ nav{ width: auto;
         display: inline-block;
         box-sizing: border-box;
         position: relative;}
-}
+        nav > ul {
+            margin-top:-10px;
+        }
+
+        nav > ul {
+            margin-top:15px;
+        }
+
+    }
 
 /* ==============================
 X-Large devices (1300px or larger)
@@ -614,6 +623,8 @@ nav{ width: auto;
     float: inline-start;
     margin-top: 4px;
     margin-bottom: 20px;
+
+
 } 
 
 
