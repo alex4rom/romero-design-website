@@ -174,6 +174,7 @@ nav > ul > li > a:active{
 
 .navtoggle, .navtoggle.responsive {
             position: relative;
+            
           }
 
 .navtoggle li .icon {
@@ -187,11 +188,22 @@ nav > ul > li > a:active{
 
 .navtoggle.responsive li  {
             display: block;
+            padding: 10px 0;
+            border-top: 1px solid #f76414;
           }
 
+.navtoggle.responsive nav {
+            padding: 24px 0 0;
+          }
+
+.navtoggle.responsive li:last-child  {
+            padding: 0 0 10px;
+          }
+
+
 .topic{ text-decoration: underline 2px solid #fe922d;
-text-align: center;
-padding-bottom: 15px;
+        text-align: center;
+        padding-bottom: 15px;
 }
 
 
