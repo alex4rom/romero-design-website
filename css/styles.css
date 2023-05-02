@@ -14,7 +14,8 @@ header {
         -moz-box-shadow: 6px 29px 29px rgba(0, 0, 0, 0.5)  ; 
         background-color: #FDDFB7;
         padding: 10px 0;
-        margin: 0 auto;}
+        margin: 0 auto;   
+    }
 
 body {
     background-color: #Ffffff;
@@ -173,6 +174,7 @@ nav > ul > li > a:active{
 
 .navtoggle, .navtoggle.responsive {
             position: relative;
+            
           }
 
 .navtoggle li .icon {
@@ -186,10 +188,22 @@ nav > ul > li > a:active{
 
 .navtoggle.responsive li  {
             display: block;
+            padding: 10px 0;
+            border-top: 1px solid #f76414;
           }
 
+.navtoggle.responsive nav {
+            padding: 24px 0 0;
+          }
+
+.navtoggle.responsive li:last-child  {
+            padding: 0 0 10px;
+          }
+
+
 .topic{ text-decoration: underline 2px solid #fe922d;
-text-align: center;
+        text-align: center;
+        padding-bottom: 15px;
 }
 
 
@@ -209,7 +223,7 @@ footer{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    padding-top: 600px;}
+    padding-top: 80px;}
 
 #about-title,
 #project-title {
@@ -397,7 +411,7 @@ footer{
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 640px){
     header {
         text-align: unset;
         padding: 20px 0 13px;
@@ -481,7 +495,7 @@ Medium devices (640px and larger)
         display: none;
     }
     nav > ul {
-        margin: 1em 0;
+        margin-top:-50px;
     }
     div.pullUp a:before {
         position: absolute;
@@ -505,7 +519,7 @@ Medium devices (640px and larger)
         margin: 32px 0 -12px 0;
     }
 
-    footer{ padding-top: 188%;}
+    footer{ padding-top: 195%;}
 
     .container_awake{ margin-top: -170%;}
    
@@ -521,7 +535,7 @@ Medium devices (640px and larger)
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1020px) {
     header{ 
         text-align: unset;
         padding: 0 20px;
@@ -588,7 +602,15 @@ nav{ width: auto;
         display: inline-block;
         box-sizing: border-box;
         position: relative;}
-}
+        nav > ul {
+            margin-top:-10px;
+        }
+
+        nav > ul {
+            margin-top:15px;
+        }
+
+    }
 
 /* ==============================
 X-Large devices (1300px or larger)
@@ -596,7 +618,26 @@ X-Large devices (1300px or larger)
 @media only screen and (min-width: 1300px){
 
  .container_awake{ margin-top: -20%;}
+
+ #logo { max-width: 200px;
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;}
 }
+
+header{ 
+    text-align: unset;
+    padding: 0 20px;
+    margin:auto
+   }   
+
+nav{ width: auto;
+    float: inline-start;
+    margin-top: 4px;
+    margin-bottom: 20px;
+
+
+} 
 
 
 
