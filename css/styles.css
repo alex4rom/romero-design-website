@@ -596,7 +596,13 @@ X-Large devices (1300px or larger)
 @media only screen and (min-width: 1300px){
 
  .container_awake{ margin-top: -20%;}
+
+ #logo { max-width: 200px;
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;}
 }
+
 
 
 
