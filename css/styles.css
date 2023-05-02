@@ -603,6 +603,17 @@ X-Large devices (1300px or larger)
     position: relative;}
 }
 
+header{ 
+    text-align: unset;
+    padding: 0 20px;
+    margin:auto
+   }   
+
+nav{ width: auto;
+    float: inline-start;
+    margin-top: 4px;
+    margin-bottom: 20px;
+} 
 
 
 
