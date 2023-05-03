@@ -50,11 +50,11 @@ h4{font-family: 'Poiret One','Montserrat';
 
 
 p, ol, ul {
-    font-family:'Poiret One','Montserrat'; /* set paragraph font to poiret. */
+    font-family:'Montserrat'; /* set paragraph font to poiret. */
     font-size: 18px; /* set p. text size to 18 px */
     line-height: 1.2; /* set line height to 1.2 times the font size */
-    font-weight: 200; /* set text weight to 200 */
-    color: #30675D; }
+    font-weight: 300; /* set text weight to 300 */
+    color: #143a52; }
 
 img {
     width: 100%;
