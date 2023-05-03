@@ -417,14 +417,32 @@ Medium devices (640px and larger)
         padding: 20px 0 13px;
 
     }
+    
+    .logo {
+    max-width: 350px;
+  }
     nav {
       width: auto;
       float: right;
-      margin-top: auto;
+      margin-top: 10px;
     }
-    body {
-        font-size: 18px;
+    
+     nav > ul {
+ margin: 1em 0;
+     }
+    
+     nav > ul > li {
+    display: inline-block;
     }
+    
+    .navtoggle li:not(:last-child) {
+        display: inline-block;
+    }
+    .navtoggle li:last-child {
+        display: none;
+    }
+   
+  
     .col-lg-5{ text-align: center;
             margin-left: 115px;}
     
@@ -472,31 +490,15 @@ Medium devices (640px and larger)
     .skills > ul {
         margin: 1em 0;
     }
-    nav > ul > li {
-        padding: 0 16px;
-    }
+   
     .social-icon {
         width: 36px;
     }
     .learnings p span {
         padding: 0;
     }
-    .logo {
-        max-width: 350px;
-    }
-    nav > ul > li {
-        display: inline-block;
-        padding: 0 10px;
-    }
-    .navtoggle li:not(:last-child) {
-        display: inline-block;
-    }
-    .navtoggle li:last-child {
-        display: none;
-    }
-    nav > ul {
-        margin-top:-50px;
-    }
+    
+    
     div.pullUp a:before {
         position: absolute;
         width: 100%;
@@ -528,7 +530,6 @@ Medium devices (640px and larger)
         box-sizing: border-box;
         position: relative;}
 
-     nav > ul > li{ display: inline-block;}
 
 }
 
@@ -536,17 +537,7 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1020px) {
-    header{ 
-        text-align: unset;
-        padding: 0 20px;
-        margin:auto
-       }   
  
-nav{ width: auto;
-        float: inline-start;
-        margin-top: 4px;
-        margin-bottom: 20px;
-    } 
     .col-lg-3 {
         width: 25%;
     }
@@ -611,39 +602,6 @@ nav{ width: auto;
         }
 
     }
-
-/* ==============================
-X-Large devices (1300px or larger)
-================================= */
-@media only screen and (min-width: 1300px){
-
- .container_awake{ margin-top: -20%;}
-
- #logo { max-width: 200px;
-    display: inline-block;
-    box-sizing: border-box;
-    position: relative;}
-}
-
-header{ 
-    text-align: unset;
-    padding: 0 20px;
-    margin:auto
-   }   
-
-nav{ width: auto;
-    float: inline-start;
-    margin-top: 4px;
-    margin-bottom: 20px;
-
-
-} 
-
-
-
-
-
-
 
 
 
