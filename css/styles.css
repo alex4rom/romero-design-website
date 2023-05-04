@@ -603,9 +603,13 @@ Large devices (1024px or larger)
 
     }
 
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1250px) {
+ footer{ padding-top: 800px;}
 
-
-
+}
 /* CSS Animation */
 
 .svg{ width: 100%;
