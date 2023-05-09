@@ -127,7 +127,6 @@ a:active{ color: #0973f6;
 
 .button.contact:hover{ background-color: transparent;
                         color:#fe922d;
-                        border: 2px solid #fe922d;
                         outline: 2px solid #045684;}
 
 
