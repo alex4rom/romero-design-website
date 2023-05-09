@@ -1,109 +1,178 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>about_roberto_romero</title>
-    <link href="img/favicon.ico" rel="shortcut icon">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poiret+One&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://kit.fontawesome.com/9e89b70334.js" crossorigin="anonymous"></script>
-    <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
-</head>
-<body id="about-page">
+    <link href="img/favicon.ico" rel="shortcut icon" >
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poiret+One&display=swap"
+      rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <script
+      src="https://kit.fontawesome.com/9e89b70334.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body id="about-page">
+    <header id="about_page">
+      <div class="container">
+        <div class="navtoggle" id="myNavtoggle">
+          <img id="logo" src="img/logo.png" alt="romero" >
 
-<header id="about_page">
-<div class=" container">
-    <div class="navtoggle" id="myNavtoggle">
-    <img id="logo" src="img/logo.png" alt="romero">
-    
+          <nav>
+            <ul>
+              <li><a href="index.html">Work</a></li>
+              <li><a href="about.html">About Me</a></li>
+              <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+              <li>
+                <a
+                  href="javascript:void(0);"
+                  class="icon"
+                  onclick="menuToggle()"
+                >
+                  <i class="fa-solid fa-bars" style="color: #0d1c24"></i
+                ></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
 
-    <nav>
-    <ul>
-        <li><a href="index.html">Work</a></li>
-        <li> <a href="about.html">About Me</a></li>
-        <li> <a href="#contact" onclick="menuToggle()">Contact</a></li>
-        <li> <a href="javascript:void(0);" class="icon" onclick="menuToggle()">
-             <i class="fa-solid fa-bars" style="color: #0d1c24;"></i></a></li>
-    </ul>
-    </nav>
-</div>
-</div>
-</header>
- 
+    <main>
+      <div id="hero">
+        <div class="container">
+          <h1>About Me</h1>
+        </div>
+        <!--end hero-->
+      </div>
+      <!--end container-->
 
-<main>
-    <div id="hero" >
-        <div class="container"> 
-            <h1> About Me </h1>
-        </div><!--end hero-->
-    </div> <!--end container-->
-
-<div id="about">   
-    <div class="container"> 
-        <picture><source srcset="img/photo_1x.jpg" media="(max-width:767px)">
-        <img id="photo" src="img/photo_2x.jpg" alt="photo"> </picture>
-    </div><!--end container-->
-        <div class="container"> 
-    <div class="col-lg-7"> 
-            <h2 class="topic"> My Story </h2> 
-                <p>Hi, its a pleasure to meet you. My name is Roberto and I am a UX-UI designer based out of Rhode Island.
-                <p>As a first generation American I grew up in a very family oriented household where we were all expected to work together for the good of the family. 
-                <p>This upbringing along with my passion for artistic expression drove me to my career as a Chef, where I was able to rise up through the ranks to hold the title of Executive Chef.
-                <p>After over a decade in the hospitality industry my Leadership abilities, Problem Solving skills and Resourcefulness are second to none. 
-                <p>I now bring my skills to the digital world with the goal to become a top level designer that will strive to create products that serve and care for user needs all the while pushing the industry standard.</p>
-                <h3><a href="files/romero_resume.pdf" target="_blank" class="button contact">View Resume</a></h3>
-    </div><!--end col-->
-    </div><!--end container-->
-    <div class="container">
-            <div class="col-lg-5"> 
-                        <h2 class="topic"> Skills & Tools </h2>
-<div class="row">
-                <div class="skills col-md-6">
-                <h3> Relevant Skills</h3>
+      <div id="about">
+        <div class="container">
+          <picture
+            ><source srcset="img/photo_1x.jpg" media="(max-width:767px)" >
+            <img id="photo" src="img/photo_2x.jpg" alt="photo" >
+          </picture>
+        </div>
+        <!--end container-->
+        <div class="container">
+          <div class="col-lg-7">
+            <h2 class="topic">My Story</h2>
+            <p>
+              Hi, its a pleasure to meet you. My name is Roberto and I am a
+              UX-UI designer based out of Rhode Island.
+            </p>
+            <p>
+              As a first generation American I grew up in a very family oriented
+              household where we were all expected to work together for the good
+              of the family.
+            </p>
+            <p>
+              This upbringing along with my passion for artistic expression
+              drove me to my career as a Chef, where I was able to rise up
+              through the ranks to hold the title of Executive Chef.
+            </p>
+            <p>
+              After over a decade in the hospitality industry my Leadership
+              abilities, Problem Solving skills and Resourcefulness are second
+              to none.
+            </p>
+            <p>
+              I now bring my skills to the digital world with the goal to become
+              a top level designer that will strive to create products that
+              serve and care for user needs all the while pushing the industry
+              standard.
+            </p>
+            <h3>
+              <a
+                href="files/romero_resume.pdf"
+                target="_blank"
+                class="button contact"
+                >View Resume</a
+              >
+            </h3>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end container-->
+        <div class="container">
+          <div class="col-lg-5">
+            <h2 class="topic">Skills & Tools</h2>
+            <div class="row">
+              <div class="skills col-md-6">
+                <h3>Relevant Skills</h3>
                 <ul>
-                    <li>UX Strategy</li><li>Flow Diagrams</li><li>Prototyping</li><li>Wire Framing</li><li>Front-end Development</li>
-                    <li>UX Research</li><li>Persona Development</li><li>UI Design</li><li>Competitive Analysis</li><li>User Testing</li>
+                  <li>UX Strategy</li>
+                  <li>Flow Diagrams</li>
+                  <li>Prototyping</li>
+                  <li>Wire Framing</li>
+                  <li>HTML / CSS</li>
+                  <li>UX Research</li>
+                  <li>Persona Development</li>
+                  <li>UI Design</li>
+                  <li>Competitive Analysis</li>
+                  <li>User Testing</li>
                 </ul>
-            </div><!--end col-->
-            <div class="skills col-md-6"> 
+              </div>
+              <!--end col-->
+              <div class="skills col-md-6">
                 <h3>Tools I Use</h3>
                 <ul>
-                    <li>Figma</li><li>Balsamic</li><li>VsCode</li><li>Github</li>
+                  <li>Figma</li>
+                  <li>Balsamic</li>
+                  <li>VsCode</li>
+                  <li>Github</li>
                 </ul>
-            </div><!--end col-->
-        </div>   <!--end row-->    
-    </div><!--end col-->
-</div>  <!--end container-->
-</div><!--end about-->
-</main>
+              </div>
+              <!--end col-->
+            </div>
+            <!--end row-->
+          </div>
+          <!--end col-->
+        </div>
+        <!--end container-->
+      </div>
+      <!--end about-->
+    </main>
 
-<footer>
-<div  class="container">
-    <div>
-    
-    <h2 class="topic">Let's Connect</h2>
-    <p>Intrested in discussing more? Get in touch!</p>
-    
-       <h3 id="contact"><a href="mailto:romerofinance10@gmail.com" class="button contact">Email Me</a></h3>
-    </div>
+    <footer>
+      <div class="container">
+        <div>
+          <h2 class="topic">Let's Connect</h2>
+          <h3> Intrested in discussing more? Get in touch!</h3>
 
-    <div>
-        <a href="https://www.linkedin.com/in/robertoromero" target="_blank">
-            <img  id="linked_logo" src="img/linked_in_logo.svg" alt="Linked In"></a>
-    </div>
-    
-    <div>
-        <p> Copyright Romero Design 2023 </p>
-    </div>
-</div>    
-</footer>
-<script src="js/scripts.js"></script>
-</body>
+          <h3 id="contact">
+            <a href="mailto:romerofinance10@gmail.com" class="button contact"
+              >Email Me</a
+            >
+          </h3>
+        </div>
 
+        <div>
+          <a href="https://www.linkedin.com/in/robertoromero" target="_blank">
+            <img id="linked_logo" src="img/linked_in_logo.svg" alt="Linked In"></a>
+        </div>
+
+        <div>
+          <h4>Copyright Romero Design 2023</h4>
+        </div>
+      </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+  </body>
 </html>
