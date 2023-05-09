@@ -51,7 +51,8 @@ p, ol, ul {
     font-size: 18px; /* set p. text size to 18 px */
     line-height: 1.2; /* set line height to 1.2 times the font size */
     font-weight: 300; /* set text weight to 300 */
-    color: #143a52; }
+    color: #051e2e;
+    text-align: left;}
 
 img {
     width: 100%;
@@ -82,15 +83,18 @@ a:visited{ color:#0973f6;
 
 a:hover{ color: #fe922d;
     font-size: 20px;
-    text-decoration: underline 2px solid #0973f6;}
+    text-decoration: underline 2px solid #0973f6;
+    outline: 2px solid #045684;}
 
 a:focus{ color: #fe922d;
         font-size: 20px;
-        text-decoration: underline 2px solid #0973f6;}
+        text-decoration: underline 2px solid #0973f6;
+        outline: 2px solid #045684;}
        
 a:active{ color: #0973f6;
         font-size: 20px;
-       text-decoration: underline;}
+       text-decoration: underline;
+       outline: 2px solid #045684;}
 
 
 .button { display: inline-block; /* change button to in-line-block*/
@@ -104,11 +108,13 @@ a:active{ color: #0973f6;
 
 .button:active{ color: #fe922d;
             background-color: transparent;
-             text-decoration: underline;}
+             text-decoration: underline;
+             outline: 2px solid #045684;}
 
 .button:hover{ color: #031832;
                 opacity: 0.8; /* redueces opacity of butoon to 80%*/
-                text-decoration: none;}
+                text-decoration: none;
+                outline: 2px solid #045684;}
 
 .button.contact{ background-color: transparent;
                 color:#0973f6;
@@ -116,11 +122,13 @@ a:active{ color: #0973f6;
     
 .button.contact:active{ background-color: transparent;
                         color:#0973f6;
-                        border: 2px solid #fe922d;}
+                        border: 2px solid #fe922d;
+                        outline: 2px solid #045684;}
 
 .button.contact:hover{ background-color: transparent;
                         color:#fe922d;
-                        border: 2px solid #fe922d;}
+                        border: 2px solid #fe922d;
+                        outline: 2px solid #045684;}
 
 
 /* Layout styling */
@@ -425,11 +433,12 @@ Medium devices (640px and larger)
     }
     
      nav > ul {
- margin: 1em 0;
+    margin: 1em 0;
      }
     
      nav > ul > li {
     display: inline-block;
+    padding-left: 10px;
     }
     
     .navtoggle li:not(:last-child) {
@@ -601,7 +610,7 @@ Large devices (1024px or larger)
     }
 
 /* ==============================
-Large devices (1024px or larger)
+XLarge devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1250px) {
  footer{ padding-top: 1000px;}
