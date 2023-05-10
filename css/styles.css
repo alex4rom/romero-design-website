@@ -98,7 +98,7 @@ a:active{ color: #0973f6;
 
 
 .button { display: inline-block; /* change button to in-line-block*/
-        outline: 2px solid #fe922d;
+        outline:  solid #fe922d;
         color: #0973f6;
         font-weight: 400;
         padding: 10px;
@@ -109,25 +109,25 @@ a:active{ color: #0973f6;
 .button:active{ color: #fe922d;
             background-color: transparent;
              text-decoration: underline;
-             outline: 2px solid #045684;}
+             }
 
 .button:hover{ color: #031832;
                 opacity: 0.8; /* redueces opacity of butoon to 80%*/
                 text-decoration: none;
-                outline: 2px solid #045684;}
+                }
 
 .button.contact{ background-color: transparent;
                 color:#0973f6;
-                border: 2px solid #fe922d;}
+               }
     
 .button.contact:active{ background-color: transparent;
                         color:#0973f6;
-                        border: 2px solid #fe922d;
-                        outline: 2px solid #045684;}
+                        border: 4px solid #045684;
+                        }
 
 .button.contact:hover{ background-color: transparent;
-                        color:#fe922d;
-                        outline: 2px solid #045684;}
+                        color:#045684;
+                        }
 
 
 /* Layout styling */
@@ -158,18 +158,18 @@ nav > ul > li > a:hover{
         padding: 0 5px;
         text-transform: uppercase;
         font-weight: 700;
-        text-decoration: underline 2px solid #0973f6;}
+       }
 nav > ul > li > a:focus{ 
         padding: 0 5px;
         text-transform: uppercase;
         font-weight: 700;
-        text-decoration: underline 2px solid #0973f6; }            
+        }            
 nav > ul > li > a:active{ 
         color: #0973f6;
         padding: 0 5px;
         text-transform: uppercase;
         font-weight: 700;
-        text-decoration: underline 2px solid #0973f6;}
+       }
 
 
 .navtoggle li:not(:last-child) {
