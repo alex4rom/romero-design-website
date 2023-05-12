@@ -202,9 +202,17 @@ nav > ul > li > a:active{
           }
 
 
-.topic{ text-decoration: underline 2px solid #fe922d;
+.topic { border-bottom: 2px solid #fe922d;
         text-align: center;
         padding-bottom: 15px;
+        width: 180px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.about {  text-decoration: underline 2px solid #fe922d;
+    text-align: center;
+    padding-bottom: 15px;
 }
 
 
