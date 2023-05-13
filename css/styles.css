@@ -197,7 +197,7 @@ nav > ul > li > a:active{
             padding: 24px 0 0;
           }
 
-.navtoggle.responsive li:last-child  {
+.navtoggle.responsive li:last-child {
             padding: 0 0 10px;
           }
 
@@ -210,9 +210,10 @@ nav > ul > li > a:active{
         margin-right: auto;
 }
 
-.about {  text-decoration: underline 2px solid #fe922d;
+.about { border-bottom: 2px solid #fe922d;
     text-align: center;
     padding-bottom: 15px;
+    width: 150px;
 }
 
 
