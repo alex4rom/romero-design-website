@@ -211,9 +211,9 @@ nav > ul > li > a:active{
 }
 
 .about { border-bottom: 2px solid #fe922d;
+    padding-bottom: 20px;
     text-align: center;
-    padding-bottom: 15px;
-    width: 150px;
+    margin-left: auto;
 }
 
 
