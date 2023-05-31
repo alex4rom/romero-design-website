@@ -635,6 +635,8 @@ XLarge devices (1250px or larger)
 @media only screen and (min-width: 1250px) {
  footer{ padding-top: 1000px;}
 
+ img { width: 75%;}
+
 }
 /* CSS Animation */
 
